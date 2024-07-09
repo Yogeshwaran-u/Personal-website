@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGESHWARAN's World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">YOGESHWARAN's</span> World</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#podcast">Podcast</a></li>
+                    <li><a href="#reels">Instagram Reels</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My World</h1>
+            <p>Exploring Random Stuff - Blogging, Podcasting, and Instagram Reels</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm YOGESHWARAN. I love sharing my thoughts and ideas through blogging, podcasting, and creating Instagram reels. Here you'll find a mix of my random musings, audio shows, and short videos that capture my interests and experiences.</p>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Coming soon! Stay tuned for my latest blog posts on various topics.</p>
+    </section>
+
+    <section id="podcast" class="container">
+        <h2>Podcast</h2>
+        <p>Listen to my latest podcast episodes where I discuss different topics, interview interesting people, and share my thoughts.</p>
+    </section>
+
+    <section id="reels" class="container">
+        <h2>Instagram Reels</h2>
+        <p>Follow me on Instagram to watch my latest reels. I love creating fun and engaging short videos on various subjects.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me on my social media platforms or send me an email at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>YOGESHWARAN's World &copy; 2024</p>
+    </footer>
+</body>
+</html>
